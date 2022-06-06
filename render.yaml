@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: john-expo
+    env: static
+    buildCommand: expo build:web
+    staticPublishPath: ./web-build
